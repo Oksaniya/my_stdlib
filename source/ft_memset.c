@@ -1,6 +1,6 @@
 #include "../header/my_stdlib.h"
 
-void *memset(void *s, int c, size_t n)
+void *ft_memset(void *s, int c, size_t n)
 {
     unsigned char *chlen = s;
     size_t iterator;
