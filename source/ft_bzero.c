@@ -1,6 +1,6 @@
 #include "../header/my_stdlib.h"
 
-void bzero(void *s, size_t n)
+void ft_bzero(void *s, size_t n)
 {
     unsigned char *chlen;
     size_t iterator;
